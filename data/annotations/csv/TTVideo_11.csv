@@ -1,0 +1,6 @@
+stroke_id,stroke_type,start_frame,contact_frame,end_frame,camera_angle,player_handedness
+0,forehand_smash,173,186,197,side,left
+1,forehand_smash,335,348,356,side,left
+2,forehand_smash,719,735,741,side,left
+3,forehand_smash,882,894,903,side,left
+4,forehand_smash,1018,1031,1039,side,left

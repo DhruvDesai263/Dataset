@@ -1,0 +1,8 @@
+stroke_id,stroke_type,start_frame,contact_frame,end_frame,camera_angle,player_handedness
+0,serev,51,59,64,side,right
+1,serev,219,232,238,side,right
+2,serev,387,401,406,side,right
+3,serev,550,568,573,side,right
+4,serev,644,655,659,side,right
+5,serev,788,802,806,side,right
+6,serev,957,967,975,side,right

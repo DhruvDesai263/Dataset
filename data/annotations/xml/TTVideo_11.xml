@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>17</id>
+      <size>1065</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-03-09 06:25:45.765511+00:00</created>
+      <updated>2026-03-09 07:15:25.295883+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>1064</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>17</id>
+          <start>0</start>
+          <stop>1064</stop>
+          <url>http://localhost:8080/api/jobs/17/dataset/export/api/jobs/17</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>Dhruvi284</username>
+        <email>pdhruvi2005@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Stroke</name>
+          <color>#d80902</color>
+          <type>any</type>
+          <attributes>
+            <attribute>
+              <name>stroke_type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>serve</default_value>
+              <values>serve
+forehand_chop
+backhand_chop
+forehand_smash
+backhand_smash</values>
+            </attribute>
+            <attribute>
+              <name>contact_frame</name>
+              <mutable>False</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+300000
+1</values>
+            </attribute>
+            <attribute>
+              <name>camera_angle</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>side</default_value>
+              <values>side
+broadcast
+diagonal
+top</values>
+            </attribute>
+            <attribute>
+              <name>player_handedness</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>right</default_value>
+              <values>right
+left</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-03-09 07:15:38.403644+00:00</dumped>
+    <original_size>
+      <width>3840</width>
+      <height>2160</height>
+    </original_size>
+  </meta>
+  <track id="0" label="Stroke" source="manual">
+    <box frame="173" keyframe="1" outside="0" occluded="0" xtl="346.47" ytl="705.53" xbr="1501.70" ybr="2141.30" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="174" keyframe="0" outside="0" occluded="0" xtl="350.58" ytl="707.22" xbr="1505.81" ybr="2142.05" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="175" keyframe="0" outside="0" occluded="0" xtl="354.70" ytl="708.90" xbr="1509.93" ybr="2142.80" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="176" keyframe="0" outside="0" occluded="0" xtl="358.81" ytl="710.58" xbr="1514.04" ybr="2143.54" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="177" keyframe="0" outside="0" occluded="0" xtl="362.92" ytl="712.26" xbr="1518.16" ybr="2144.29" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="178" keyframe="0" outside="0" occluded="0" xtl="367.04" ytl="713.95" xbr="1522.27" ybr="2145.04" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="179" keyframe="0" outside="0" occluded="0" xtl="371.15" ytl="715.63" xbr="1526.39" ybr="2145.79" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="180" keyframe="0" outside="0" occluded="0" xtl="375.27" ytl="717.31" xbr="1530.50" ybr="2146.54" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="181" keyframe="0" outside="0" occluded="0" xtl="379.38" ytl="719.00" xbr="1534.61" ybr="2147.28" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="182" keyframe="0" outside="0" occluded="0" xtl="383.50" ytl="720.68" xbr="1538.73" ybr="2148.03" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="183" keyframe="0" outside="0" occluded="0" xtl="387.61" ytl="722.36" xbr="1542.84" ybr="2148.78" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="184" keyframe="0" outside="0" occluded="0" xtl="391.73" ytl="724.05" xbr="1546.96" ybr="2149.53" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="185" keyframe="0" outside="0" occluded="0" xtl="395.84" ytl="725.73" xbr="1551.07" ybr="2150.28" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="186" keyframe="0" outside="0" occluded="0" xtl="399.95" ytl="727.41" xbr="1555.19" ybr="2151.02" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="187" keyframe="0" outside="0" occluded="0" xtl="404.07" ytl="729.10" xbr="1559.30" ybr="2151.77" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="188" keyframe="0" outside="0" occluded="0" xtl="408.18" ytl="730.78" xbr="1563.41" ybr="2152.52" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="189" keyframe="0" outside="0" occluded="0" xtl="412.30" ytl="732.46" xbr="1567.53" ybr="2153.27" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="190" keyframe="0" outside="0" occluded="0" xtl="416.41" ytl="734.15" xbr="1571.64" ybr="2154.02" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="191" keyframe="0" outside="0" occluded="0" xtl="420.53" ytl="735.83" xbr="1575.76" ybr="2154.76" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="192" keyframe="0" outside="0" occluded="0" xtl="424.64" ytl="737.51" xbr="1579.87" ybr="2155.51" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="193" keyframe="0" outside="0" occluded="0" xtl="428.75" ytl="739.19" xbr="1583.99" ybr="2156.26" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="194" keyframe="0" outside="0" occluded="0" xtl="432.87" ytl="740.88" xbr="1588.10" ybr="2157.01" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="195" keyframe="0" outside="0" occluded="0" xtl="436.98" ytl="742.56" xbr="1592.21" ybr="2157.76" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="196" keyframe="0" outside="0" occluded="0" xtl="441.10" ytl="744.24" xbr="1596.33" ybr="2158.50" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="197" keyframe="0" outside="0" occluded="0" xtl="445.21" ytl="745.93" xbr="1600.44" ybr="2159.25" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="198" keyframe="1" outside="1" occluded="0" xtl="449.33" ytl="747.61" xbr="1604.56" ybr="2160.00" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">186</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+  </track>
+  <track id="1" label="Stroke" source="manual">
+    <box frame="335" keyframe="1" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="336" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="337" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="338" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="339" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="340" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="341" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="342" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="343" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="344" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="345" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="346" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="347" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="348" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="349" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="350" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="351" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="352" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="353" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="354" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="355" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="356" keyframe="0" outside="0" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="357" keyframe="1" outside="1" occluded="0" xtl="491.87" ytl="850.93" xbr="1613.95" ybr="2131.97" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">348</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+  </track>
+  <track id="2" label="Stroke" source="manual">
+    <box frame="719" keyframe="1" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="720" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="721" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="722" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="723" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="724" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="725" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="726" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="727" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="728" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="729" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="730" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="731" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="732" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="733" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="734" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="735" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="736" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="737" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="738" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="739" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="740" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="741" keyframe="0" outside="0" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="742" keyframe="1" outside="1" occluded="0" xtl="641.50" ytl="1056.60" xbr="1637.32" ybr="2150.68" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">735</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+  </track>
+  <track id="3" label="Stroke" source="manual">
+    <box frame="882" keyframe="1" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="883" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="884" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="885" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="886" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="887" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="888" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="889" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="890" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="891" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="892" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="893" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="894" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="895" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="896" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="897" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="898" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="899" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="900" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="901" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="902" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="903" keyframe="0" outside="0" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="904" keyframe="1" outside="1" occluded="0" xtl="833.17" ytl="757.43" xbr="1903.82" ybr="2150.68" z_order="0">
+      <attribute name="player_handedness">left</attribute>
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">894</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+  </track>
+  <track id="4" label="Stroke" source="manual">
+    <box frame="1018" keyframe="1" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1019" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1020" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1021" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1022" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1023" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1024" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1025" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1026" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1027" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1028" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1029" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1030" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1031" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1032" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1033" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1034" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1035" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1036" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1037" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1038" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1039" keyframe="0" outside="0" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+    <box frame="1040" keyframe="1" outside="1" occluded="0" xtl="847.19" ytl="720.03" xbr="1885.12" ybr="2141.32" z_order="0">
+      <attribute name="stroke_type">forehand_smash</attribute>
+      <attribute name="contact_frame">1031</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">left</attribute>
+    </box>
+  </track>
+</annotations>

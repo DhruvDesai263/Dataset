@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <job>
+      <id>17</id>
+      <size>1011</size>
+      <mode>interpolation</mode>
+      <overlap>5</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-03-09 09:56:23.642749+00:00</created>
+      <updated>2026-03-09 10:12:52.006867+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>1010</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>17</id>
+          <start>0</start>
+          <stop>1010</stop>
+          <url>http://localhost:8080/api/jobs/17/dataset/export/api/jobs/17</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>krutik28</username>
+        <email>baraiyakrutik2803@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>stroke</name>
+          <color>#d80902</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>stroke_type</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>serev</default_value>
+              <values>serev
+forehand_chop
+backhand_chop
+forehand_smash
+backhand_smash</values>
+            </attribute>
+            <attribute>
+              <name>contact_frame</name>
+              <mutable>False</mutable>
+              <input_type>number</input_type>
+              <default_value>0</default_value>
+              <values>0
+20000
+1</values>
+            </attribute>
+            <attribute>
+              <name>camera_angle</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>side</default_value>
+              <values>side
+broadcast
+diagonal
+top</values>
+            </attribute>
+            <attribute>
+              <name>player_handedness</name>
+              <mutable>False</mutable>
+              <input_type>select</input_type>
+              <default_value>right</default_value>
+              <values>right
+left</values>
+            </attribute>
+          </attributes>
+        </label>
+      </labels>
+    </job>
+    <dumped>2026-03-09 10:23:01.901994+00:00</dumped>
+    <original_size>
+      <width>2160</width>
+      <height>3840</height>
+    </original_size>
+  </meta>
+  <track id="0" label="stroke" source="manual">
+    <box frame="51" keyframe="1" outside="0" occluded="0" xtl="1426.10" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="1408.18" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="1390.26" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="1372.33" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="1354.41" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="1336.49" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="1318.57" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="1300.64" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="1282.72" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="60" keyframe="1" outside="0" occluded="0" xtl="1264.80" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="1264.80" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="1264.80" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="1264.80" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="1264.80" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="65" keyframe="1" outside="1" occluded="0" xtl="1264.80" ytl="1333.14" xbr="2160.00" ybr="3262.80" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">59</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+  </track>
+  <track id="1" label="stroke" source="manual">
+    <box frame="219" keyframe="1" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="220" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="221" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="222" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="223" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="224" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="225" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="226" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="227" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="228" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="229" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="230" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="231" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="232" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="233" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="234" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="235" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="236" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="237" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="238" keyframe="0" outside="0" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="239" keyframe="1" outside="1" occluded="0" xtl="1157.37" ytl="1397.64" xbr="2141.03" ybr="3569.21" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">232</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+  </track>
+  <track id="2" label="stroke" source="manual">
+    <box frame="387" keyframe="1" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="388" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="389" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="390" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="391" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="392" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="393" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="394" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="395" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="396" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="397" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="398" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="399" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="400" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="401" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="402" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="403" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="404" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="405" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="406" keyframe="0" outside="0" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="407" keyframe="1" outside="1" occluded="0" xtl="1098.20" ytl="1204.14" xbr="2119.53" ybr="3569.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">401</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+  </track>
+  <track id="3" label="stroke" source="manual">
+    <box frame="550" keyframe="1" outside="0" occluded="0" xtl="1135.90" ytl="1343.89" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="551" keyframe="0" outside="0" occluded="0" xtl="1138.06" ytl="1319.17" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="552" keyframe="0" outside="0" occluded="0" xtl="1140.22" ytl="1294.46" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="553" keyframe="0" outside="0" occluded="0" xtl="1142.38" ytl="1269.74" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="554" keyframe="0" outside="0" occluded="0" xtl="1144.54" ytl="1245.02" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="555" keyframe="1" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="556" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="557" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="558" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="559" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="560" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="561" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="562" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="563" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="564" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="565" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="566" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="567" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="568" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="569" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="570" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="571" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="572" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="573" keyframe="0" outside="0" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="574" keyframe="1" outside="1" occluded="0" xtl="1146.70" ytl="1220.30" xbr="2160.00" ybr="3214.45" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">568</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+  </track>
+  <track id="4" label="stroke" source="manual">
+    <box frame="644" keyframe="1" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="645" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="646" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="647" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="648" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="649" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="650" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="651" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="652" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="653" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="654" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="655" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="656" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="657" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="658" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="659" keyframe="0" outside="0" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="660" keyframe="1" outside="1" occluded="0" xtl="1297.10" ytl="1655.65" xbr="2135.65" ybr="3757.34" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">655</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+  </track>
+  <track id="5" label="stroke" source="manual">
+    <box frame="788" keyframe="1" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="789" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="790" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="791" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="792" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="793" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="794" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="795" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="796" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="797" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="798" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="799" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="800" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="801" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="802" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="803" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="804" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="805" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="806" keyframe="0" outside="0" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+    <box frame="807" keyframe="1" outside="1" occluded="0" xtl="1410.01" ytl="1655.65" xbr="2146.40" ybr="3461.71" z_order="0">
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">802</attribute>
+      <attribute name="camera_angle">side</attribute>
+      <attribute name="player_handedness">right</attribute>
+    </box>
+  </track>
+  <track id="6" label="stroke" source="manual">
+    <box frame="957" keyframe="1" outside="0" occluded="0" xtl="1270.30" ytl="1752.40" xbr="2114.15" ybr="3784.21" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="958" keyframe="0" outside="0" occluded="0" xtl="1263.85" ytl="1752.94" xbr="2114.69" ybr="3784.75" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="959" keyframe="0" outside="0" occluded="0" xtl="1257.40" ytl="1753.48" xbr="2115.23" ybr="3785.29" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="960" keyframe="0" outside="0" occluded="0" xtl="1250.95" ytl="1754.01" xbr="2115.76" ybr="3785.83" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="961" keyframe="0" outside="0" occluded="0" xtl="1244.50" ytl="1754.55" xbr="2116.30" ybr="3786.36" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="962" keyframe="0" outside="0" occluded="0" xtl="1238.05" ytl="1755.09" xbr="2116.84" ybr="3786.90" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="963" keyframe="0" outside="0" occluded="0" xtl="1231.60" ytl="1755.63" xbr="2117.38" ybr="3787.44" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="964" keyframe="0" outside="0" occluded="0" xtl="1225.15" ytl="1756.16" xbr="2117.91" ybr="3787.98" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="965" keyframe="0" outside="0" occluded="0" xtl="1218.70" ytl="1756.70" xbr="2118.45" ybr="3788.51" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="966" keyframe="0" outside="0" occluded="0" xtl="1212.25" ytl="1757.24" xbr="2118.99" ybr="3789.05" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="967" keyframe="1" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="968" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="969" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="970" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="971" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="972" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="973" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="974" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="975" keyframe="0" outside="0" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+    <box frame="976" keyframe="1" outside="1" occluded="0" xtl="1205.80" ytl="1757.78" xbr="2119.53" ybr="3789.59" z_order="0">
+      <attribute name="player_handedness">right</attribute>
+      <attribute name="stroke_type">serev</attribute>
+      <attribute name="contact_frame">967</attribute>
+      <attribute name="camera_angle">side</attribute>
+    </box>
+  </track>
+</annotations>
