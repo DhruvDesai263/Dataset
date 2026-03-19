@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.pyc
+.pytest_cache/
+*.log
+
+# Data outputs (optional - uncomment if you want to track them)
+# unified_balanced_datasets/
+# *.csv (if excluding data files)
+
+# Temporary files
+temp/
+tmp/
+*.tmp
